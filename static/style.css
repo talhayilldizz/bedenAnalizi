@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+}
+.ana-div{
+    display: flex;
+    color: aqua;
+}
+.ana-div div{
+    margin: auto;
+    text-align: center;
+}
+.ana-div img{
+    width: 40%;
+}
+.ana-div p{
+    color: rgb(91, 89, 88);
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.ana-div h2{
+    
+    font-family: sans-serif;
+    font-weight: 300px;
+    color: rgb(173, 171, 170);
+    font-size: 30px;
+    margin-top: -1em;
+}
+hr{
+    margin-top: 2em;
+    color: aqua;
+}
+.veri-al{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    margin-top: 3em;
+}
+
+input{
+    padding: 15px 20px;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    color: #e8e8e8;
+    border: 1px solid#e8e8e8;
+    font-size: 1em;
+}
+input:hover{
+    box-shadow: 0em 0em 1em  rgb(173,171,170);
+}
+.veri-al h3{
+    color: aliceblue;
+    font-family: sans-serif;
+    color: rgb(173,171,170);
+    font-size: 25px;
+}
+.veri-al hr{
+    width: 3%;
+    margin-top: -1em;
+}
+.secim{
+    margin: auto;
+    justify-content: center; /* Yatayda ortalama */
+    align-items: center;    /* Dikeyde ortalama */
+    display: flex;
+    gap: 20px;
+
+}
+.kutu{
+    width: 14em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-color: rgb(173, 171, 170);
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    color: rgb(173, 171, 170);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+button{
+    background-color: aqua;
+    width: 18%;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: black;
+    border: 1px solid rgb(173, 171, 170);
+    color: rgb(173, 171, 170);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(173,171,170);
+    color: black;
+    transition: 2s;
+}
+.sonuc{
+    background-color: aliceblue;
+    margin-top: 3em;
+    width: 20em;
+    margin: auto;
+    border-radius: 1em;
+    background-color: black;
+    border: 1px solid rgb(173, 171, 170);
+    color: wheat;
+}
+.sonuc p{
+    color: aqua;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: rgb(91, 89, 88);
+
+}
+.sonuc h2{
+    color: aqua;
+    font-family: sans-serif;
+    color: rgb(173,171,170);
+}

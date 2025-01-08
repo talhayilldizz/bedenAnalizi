@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yıldız Kitle</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" href="/static/logo.png">
+</head>
+<body>
+    <div class="ana-div">
+        <div><img src="/static/logo.png" alt="" srcset="">
+            <h2>Kendinize Uygun Bedeni Öğrenmekmi İstiyorsunuz?</h2><hr>
+            <p>Aşağıdaki Formu Doğru Şekilde Doldurunuz.</p>
+        </div>
+
+    </div>
+    <div class="veri-al">
+        <form method="POST" action="/">
+         <input type="text" name="ad" id="ad" placeholder="Adınız"><br><br>
+
+         <input type="text" name="yas" id="yas" placeholder="Yaşınız"><br><br>
+
+         <input type="text" name="boy" id="boy" placeholder="Boyunuz"><br><br>
+
+         <input type="text" name="kilo" id="kilo" placeholder="Kilonuz"><br><br>
+         
+         <h3>Giyim Tarzınız</h3><hr>
+
+         <div class="secim">
+            <div class="kutu">
+                <div><img src="/static/giyim1 kopya.png" width="80%" alt="" srcset=""></div>
+                <div>-Dar Model-</div>
+                <input type="radio" name="giyim" id="dar" value="dar">
+            </div>
+            <div class="kutu">
+                <div><img src="/static/giyim1 kopya.png" width="80%" alt="" srcset=""></div>
+                <div>-Normal Model-</div>
+                <input type="radio" name="giyim" id="normal" value="normal">
+            </div>
+            <div class="kutu">
+                <div><img src="/static/giyim1 kopya.png" width="80%" alt="" srcset=""></div>
+                <div>-Bol Model-</div>
+                <input type="radio" name="giyim" id="bol" value="bol">
+            </div>
+         </div><br>
+
+         <h3>Göğüz Tipiniz</h3><hr>
+         <div class="secim">
+            <div class="kutu">
+                <div><img src="/static/göğüss.png" width="80%" alt="" srcset=""></div>
+                <div>-Normal-</div>
+                <input type="radio" name="gogus" id="normal" value="normal">
+            </div>
+            <div class="kutu">
+                <div><img src="/static/göğüss.png" width="80%" alt="" srcset=""></div>
+                <div>-Şişkin-</div>
+                <input type="radio" name="gogus" id="siskin" value="siskin">
+            </div>
+            <div class="kutu">
+                <div><img src="/static/göğüss.png" width="80%" alt="" srcset=""></div>
+                <div>-Geniş-</div>
+                <input type="radio" name="gogus" id="genis" value="genis">
+            </div>
+         </div>
+         <button type="submit">TIKLA!</button>
+         
+         </form>
+         <div class="sonuc">
+            {% if sonuc %}
+            <h2>Bedeniniz:</h2>
+            <p>{{ sonuc }}</p>
+        {% endif %}
+
+         </div>
+
+    </div>
+
+
+</body>
+</html>
